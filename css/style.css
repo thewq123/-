@@ -1,0 +1,155 @@
+html {
+    font-size: 10px;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.body {
+    text-align: center;
+    line-height: 1.5;
+    width: 130rem;
+}
+@media screen and (max-width:768px){
+    html{
+        font-size: 6px;
+    }
+}
+.header {
+    width: 130rem;
+    height: 4rem;
+    background-color: #000;
+}
+.header .logo {
+    width: 96rem;
+    height: 4rem;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 4rem;
+    /* background-color: green; */
+}
+.header .logo span {
+    float: left;
+}
+.header .logo p a {
+    float: right;
+    color: #fff;
+    margin-left: 1rem;
+    padding-bottom: 0;
+    text-decoration: underline;
+}
+.banner {
+    position: relative;
+    height: 30rem;
+    width: 130rem;
+    background-color: #66bb33;
+}
+.banner .sidebar {
+    position: absolute;
+    right: 18.8rem;
+    bottom: 1.1rem;
+    width: 13.6rem;
+    height: 4rem;
+    /* background-color: pink; */
+}
+.banner .sidebar a{
+    text-decoration: none;
+    display: inline-block;
+    height: 3rem;
+    width: 2rem;
+    margin-left: 0.3rem;
+    margin-top: 1rem;
+    text-align: center;
+    line-height: 3rem;
+    background-color: #b2dd99;
+}
+.banner .sidebar a:hover {
+    height: 4rem;
+    background-color: #e0f1d6;
+}
+
+/* nav区域 */
+.nav {
+    position: relative;
+    height: 7.2rem;
+    width: 130rem;
+    border-bottom: 1px solid #ccc;
+}
+.nav .navbar {
+    position: absolute;
+    bottom: -0.1rem;
+    width: 96rem;
+    margin-left: 16rem;
+} 
+.nav .navbar a {
+    display: inline-block;
+    height: 5rem;
+    width: 10.6rem;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 6rem;
+    background-color: #eee;
+}
+.navbar .itme2 {
+    margin:  auto -1rem;
+}
+.nav .navbar a:hover{
+    border-bottom: 1px solid #fff;
+}
+/* core核心区 */
+.core {
+    text-align: center;
+    line-height: 17.4rem;
+    width: 96rem;
+    height: 56.3rem;
+    margin-left: 16rem;
+    /* background-color: pink; */
+}
+.core .row {
+    height: 17.4rem;
+    width: 96rem;
+    margin-top: 1.3rem;
+}
+.core .row div {
+    display: inline-block;
+    height: 17.4rem;
+    width: 32.5rem;
+    border: 1px solid #ccc;
+}
+.core .row .row_1 {
+    width: 28.4rem;
+}
+.roow div {
+    display: inline-block;
+    width: 23rem;
+    height: 17.4rem;
+    border: 1px solid #ccc;
+    margin-top: 1.3rem;
+}
+.thirdly div{
+    display: inline-block;
+    width: 31rem;
+    height: 17.4rem;
+    border: 1px solid #ccc;
+    margin-top: 1.3rem;
+}
+footer {
+    height: 12rem;
+    width: 130rem;
+    background-color: #666;
+    text-align: center;
+    line-height: 6rem;
+    color: #fff;
+}
+
+
+
